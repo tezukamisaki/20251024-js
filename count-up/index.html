@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>カウントアップゲーム</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ゲーム画面全体 -->
+  <div id="wrapper">
+    <header>
+      <h1>Count Up</h1>
+
+      <!-- 最短クリア時間 -->
+      <p id="record">Best Record : <span>0</span></p>
+
+      <!-- 経過時間 -->
+      <p id="timer">Time : <span>0</span></p>
+    </header>
+
+    <!-- ゲーム画面 -->
+    <div id="game">
+      <!-- カード部分 -->
+      <div id="numbers">
+        <!-- JSで動的に生成 -->
+        
+      </div>
+
+      <!-- スタート画面 -->
+      <div id="startScene">
+        <!-- クリア時間 -->
+         <!-- JSで更新 -->
+        <p></p>
+
+        <!-- スタートボタン -->
+        <button>START</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
